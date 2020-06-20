@@ -40,7 +40,7 @@ class ExperienceSection extends Component {
                   Proiect personal pentru a salva link-uri de pe internet (video
                   youtube, link la articole, etc) si a le structura intr-un
                   curs. Sa zicem ca vream sa ne creem un curs despre fitness.
-                  Gasim un video relevant pe youtube pe canul X si in salvam pe
+                  Gasim un video relevant pe youtube pe canul X si il salvam pe
                   platforma la cursul de fitness, dupa gasim alt video util pe
                   un alt canal si il salvam si pe acesta pe platforma. Astfel,
                   ne extragem informatii din diferite locuri de pe internet si

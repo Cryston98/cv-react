@@ -17,6 +17,9 @@ class UserSection extends Component {
         <p>
           <span>Adresa :</span> Jud. Gorj Com. Bumbesti-Pitic
         </p>
+        <p>
+          <span>Telefon :</span> 0738178368
+        </p>
         <p></p>
       </div>
     );

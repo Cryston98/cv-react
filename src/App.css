@@ -1,20 +1,9 @@
-.App {
+n.App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background: url("body.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,12 +16,55 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section {
+  background: white;
+  width: 800px;
+  margin: 5px 0px;
+  border-radius: 3px;
+  top: 20px;
+  position: relative;
+  border: 1px solid #232323;
+}
+img.profile {
+  height: 205px;
+  width: 160px;
+  display: block;
+  border: 1px solid #232323;
+  margin: 10px;
+  border-radius: 3px;
+  position: relative;
+  float: left;
+}
+#tit {
+  margin: 0px;
+}
+.section p span {
+  color: #900404;
+  font-size: 18px;
+}
+.section p,
+.section b {
+  color: #747474;
+  font-family: initial;
+  margin: 10px;
+  font-size: 18px;
+}
+.circle {
+  height: 15px;
+  border-radius: 50px;
+  width: 15px;
+  border: 2px solid #008e00;
+  float: left;
+  margin-right: 10px;
+}
+.item-head h4 {
+  font-size: 18px;
+  margin: 0px;
+}
+.line {
+  border-left: 2px solid #008e00;
+  margin-left: 7px;
+}
+.line p {
+  font-size: 14px;
 }
